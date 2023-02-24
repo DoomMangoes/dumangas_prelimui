@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'screens/homeScreen.dart';
 import 'screens/introScreen.dart';
+import 'screens/movieScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         fontFamily: GoogleFonts.openSans().fontFamily,
       ),
-      home: HomeScreen(),
+      home: MovieScreen(),
     );
   }
 }
